@@ -47,6 +47,36 @@
       background: #ED217C; /* magenta hover */
       transform: scale(1.05);
     }
+    .link-btn {
+      display: block;
+      text-decoration: none;
+      background-color: #4AAAD9;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      margin: 10px auto;
+      width: 200px;
+      text-align: center;
+      font-weight: 600;
+      transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .link-btn:hover {
+      transform: scale(1.05);
+      background-color: #4A4390;
+    }
+
+    /* Make the order button stand out */
+    .link-btn.highlight {
+      background-color: #ED217C;
+      box-shadow: 0 0 15px rgba(237, 33, 124, 0.6);
+    }
+
+    .link-btn.highlight:hover {
+      background-color: #c81c68;
+      transform: scale(1.1);
+    }
+
   </style>
   <link rel="icon" href="favicon.png" type="image/png">
 </head>
@@ -56,10 +86,10 @@
     <img src="game-logo.png" alt="Bullet Point Board Game Logo">
 
     <!-- Replace links with your own -->
-    <a href="https://forms.gle/73q2pWNZuVuQVJ4Y7" target="_blank">GET YOUR COPY</a>
-    <a href="https://screentop.gg/@jbacani/bullet-point" target="_blank">Play on screentop.gg</a>
-    <a href="https://www.instagram.com/theworkplaysph/" target="_blank">Instagram</a>
-    <a href="https://www.facebook.com/theworkplaysph" target="_blank">Facebook</a>
+    <a href="https://forms.gle/73q2pWNZuVuQVJ4Y7" target="_blank" class="link-btn highlight">Order Now</a>
+    <a href="https://screentop.gg/@jbacani/bullet-point" target="_blank" class="link-btn">Play on screentop.gg</a>
+    <a href="https://www.instagram.com/theworkplaysph/" target="_blank" class="link-btn">Instagram</a>
+    <a href="https://www.facebook.com/theworkplaysph" target="_blank" class="link-btn">Facebook</a>
     <!-- <a href="https://yourshop.com" target="_blank">Buy the Game</a> -->
   </div>
 </body>
